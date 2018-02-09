@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>BootStrap Weather Analysis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="../assets/css/style.css" media="screen">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../assets/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="navbar-wrapper">
+        <div class="container">
+        <nav class="navbar navbar-inverse navbar-static-top">
+                  <div class="container">
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href="../index.html">Weather Analysis</a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                      <ul class="nav navbar-nav">
+                        <li ><a href="../index.html">Home</a></li>
+                        <li class="dropdown active">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                              <li><a href='cloudiness.html'>Cloudiness</a></li>
+                              <li><a href='humidity.html'>Humidity</a></li>
+                              <li><a href='temp.html'>Temperature</a></li>
+                              <li><a href='windspeed.html'>Wind Speed</a></li>
+                            </ul>
+                          </li>
+                        <li><a href="../Comparison.html">Comparison</a></li>
+                        <li><a href="../Data.html">Data</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+<hr><hr><hr><hr>
+
+  <div Class='container'>
+      <h1>Latitude vs Humidity</h1>
+          <div class="row">
+              <div class="col-xs-9 col-md-6">
+                <a href="#" class="thumbnail">
+                  <img src="../assets/output_data/Humidity.png" alt="Humidity">
+                </a>
+              </div>
+              <div class="col-xs-9 col-md-6">
+                      <h2>Analysis</h2>
+                      <h4>Data points show that humidity increases with respect to latitude. When latitude increases, humidity also increased.</h4>
+                </div>
+            </div>
+          
+      </div>
+
+  </body>
+  </html>

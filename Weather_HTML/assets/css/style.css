@@ -1,0 +1,209 @@
+.tabs{
+height: 5cm;
+padding:10cm;
+background: gray;
+}
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    padding-bottom: 40px;
+    color: #535050;
+  }
+  
+  .summary{
+      font-size:50px;
+      font-style: oblique;
+  }
+  /* CUSTOMIZE THE NAVBAR
+  -------------------------------------------------- */
+  
+  /* Special class on .container surrounding .navbar, used for positioning it into place. */
+  .navbar-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+  }
+  
+  /* Flip around the padding for proper display in narrow viewports */
+  .navbar-wrapper > .container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar .container {
+    width: auto;
+  }
+  
+  
+  /* CUSTOMIZE THE CAROUSEL
+  -------------------------------------------------- */
+  
+  /* Carousel base class */
+  .carousel {
+    height: 400px;
+    margin-bottom: 60px;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    z-index: 100;
+    top:auto;
+    bottom:0px;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel .item {
+    height: 500px;
+  }
+  .carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 20%;
+    min-width: 60%;
+    max-width: 60%;
+    height: 400px;
+  }
+  
+  
+  /* MARKETING CONTENT
+  -------------------------------------------------- */
+  
+  /* Center align the text within the three columns below the carousel */
+  .marketing .col-lg-4 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: normal;
+  }
+  .marketing .col-lg-4 p {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  
+  /* Featurettes
+  ------------------------- */
+  
+  .featurette-divider {
+    margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+  
+  
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  
+  @media (min-width: 768px) {
+    /* Navbar positioning foo */
+    .navbar-wrapper {
+      margin-top: 20px;
+    }
+    .navbar-wrapper .container {
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+    .navbar-wrapper .navbar {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  
+    /* The navbar becomes detached from the top, so we round the corners */
+    .navbar-wrapper .navbar {
+      border-radius: 4px;
+    }
+  
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+      margin-bottom: 0px;
+      font-size: 21px;
+      line-height: 1.4;
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .featurette-heading {
+      margin-top: 120px;
+    }
+  }
+  
+  body {
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f7f7f7;
+}
+
+.lib-panel {
+    margin-bottom: 20Px;
+}
+.lib-panel img {
+    width: 100%;
+    background-color: transparent;
+}
+
+.lib-panel .row,
+.lib-panel .col-md-6 {
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+
+.lib-panel .lib-row {
+    padding: 0 20px 0 20px;
+}
+
+.lib-panel .lib-row.lib-header {
+    background-color: #FFFFFF;
+    font-size: 20px;
+    padding: 10px 20px 0 20px;
+}
+
+.lib-panel .lib-row.lib-header .lib-header-seperator {
+    height: 2px;
+    width: 26px;
+    background-color: #d9d9d9;
+    margin: 7px 0 7px 0;
+}
+
+.lib-panel .lib-row.lib-desc {
+    position: relative;
+    height: 100%;
+    display: block;
+    font-size: 13px;
+}
+.lib-panel .lib-row.lib-desc a{
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    left: 20px;
+}
+
+.row-margin-bottom {
+    margin-bottom: 20px;
+}
+
+.box-shadow {
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+}
+
+.no-padding {
+    padding: 0;
+}
