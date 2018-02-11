@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>BootStrap Weather Analysis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="../assets/css/style.css" media="screen">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../assets/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="navbar-wrapper">
+        <div class="container">
+        <nav class="navbar navbar-inverse navbar-static-top">
+                  <div class="container">
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href="../index.html">Weather Analysis</a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                      <ul class="nav navbar-nav">
+                        <li ><a href="../index.html">Home</a></li>
+                        <li class="dropdown active">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                              <li><a href='cloudiness.html'>Cloudiness</a></li>
+                              <li><a href='humidity.html'>Humidity</a></li>
+                              <li><a href='temp.html'>Temperature</a></li>
+                              <li><a href='windspeed.html'>Wind Speed</a></li>
+                            </ul>
+                          </li>
+                        <li><a href="../Comparison.html">Comparison</a></li>
+                        <li><a href="../Data.html">Data</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+<hr><hr><hr><hr>
+
+  <div Class='container'>
+      <h1>Latitude vs Wind Speed</h1>
+          <div class="row">
+              <div class="col-xs-9 col-md-6">
+                <a href="#" class="thumbnail">
+                  <img src="../assets/output_data/windspeed.png" alt="Wind Speed">
+                </a>
+              </div>
+              <div class="col-xs-9 col-md-6">
+                      <h2>Analysis</h2>
+                      <h4>Since the atmosphere is fixed to the earth by gravity and rotates with the earth, there would be no circulation if some force did not upset the atmosphere's equilibrium.  The heating of the earth's surface by the sun is the force responsible for creating the circulation that does exist.
+
+                          Because of the curvature of the earth, the most direct rays of the sun strike the earth in the vicinity of the equator resulting in the greatest concentration of heat, the largest possible amount of radiation, and the maximum heating of the atmosphere in this area of the earth.  At the same time, the sun's rays strike the earth at the poles at a very oblique angle, resulting in a much lower concentration of heat and much less radiation so that there is, in fact, very little heating of the atmosphere over the poles and consequently very cold temperatures.
+                          
+                          Cold air, being more dense, sinks and hot air, being less dense, rises.  Consequently, the rising warm air at the equator becomes even less dense as it rises and its pressure decreases.  An area of low pressure, therefore, exists over the equator.</h4>
+                </div>
+            </div>
+          
+      </div>
+  
+  </body>
+  </html>
